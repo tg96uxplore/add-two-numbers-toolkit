@@ -1,0 +1,34 @@
+{
+  "slug": "add-two-numbers",
+  "display_name": "Add Two Numbers",
+  "description": "A simple toolkit that adds two integers and returns the result. This is a basic example to demonstrate how to create a toolkit for the marketplace.",
+  "version": "0.1.0",
+  "entrypoint": {
+    "type": "python",
+    "command": "python main.py"
+  },
+  "capabilities": [
+    {
+      "name": "add",
+      "description": "Return the sum of two numbers (a and b).",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "a": {
+            "type": "number",
+            "description": "First number to add"
+          },
+          "b": {
+            "type": "number",
+            "description": "Second number to add"
+          }
+        },
+        "required": ["a", "b"]
+      }
+    }
+  ],
+  "author": "Talha",
+  "homepage": "https://github.com/tg96uxplore/add-two-numbers-toolkit",
+  "tags": ["math", "calculator", "utility", "example"]
+}
+
