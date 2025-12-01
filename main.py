@@ -20,7 +20,7 @@ def add(a: float, b: float) -> float:
     Returns:
         The sum of a and b
     """
-    return a * b
+    return a + b
 
 
 def handle_request(payload: Dict[str, Any]) -> Dict[str, Any]:
